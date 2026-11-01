@@ -175,8 +175,7 @@ jobs:
 ```
 이 설정은 GitHub에 코드를 push할 때 자동으로 Astro 프로젝트를 빌드하고 GitHub Pages에 배포한다.
 
-참고: Astro 공식 GitHub Pages 배포 가이드 
-7. GitHub에 프로젝트 업로드
+## 7. GitHub에 프로젝트 업로드
 
 이제 로컬 프로젝트를 GitHub 저장소에 업로드한다.
 
@@ -199,7 +198,7 @@ GitHub에 업로드한다.
 git push -u origin main
 ```
 이미 Git 저장소가 초기화되어 있거나 원격 저장소가 연결되어 있다면 중복으로 실행하지 않는다.
-8. 배포 확인
+## 8. 배포 확인
 
 GitHub 저장소의 Actions 탭으로 이동한다.
 
@@ -220,7 +219,7 @@ GitHub 저장소의 Actions 탭으로 이동한다.
 
 https://사용자명.github.io/
 ```
-9. 이후 블로그 관리
+## 9. 이후 블로그 관리
 
 초기 배포가 완료되면 이후에는 글을 작성하고 GitHub에 업로드하기만 하면 된다.
 ```bash
